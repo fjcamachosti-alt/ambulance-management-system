@@ -31,3 +31,5 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
+app.use('/api/employees', require('./routes/employees'));
