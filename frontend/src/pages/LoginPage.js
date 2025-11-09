@@ -4,8 +4,8 @@ import { AuthContext } from '../contexts/AuthContext';
 import '../styles/LoginPage.css';
 
 const LoginPage = () => {
-  const [email, setEmail] = useState('apisistem');
-  const [password, setPassword] = useState('apisistem');
+  const [email, setEmail] = useState('apisistem@ambulance.local');
+const [password, setPassword] = useState('apisistem');
   const [localError, setLocalError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   
